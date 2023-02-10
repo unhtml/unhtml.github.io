@@ -14,7 +14,7 @@ jobs:
       - name: Build Slides
         uses: docker://marpteam/marp-cli:v2.0.4
         with:
-          args: -I _slides/ --output slides/
+          args: --html -I _slides/ --output slides/
         env:
           MARP_USER: root:root
       - name: Push to Branch
@@ -28,7 +28,6 @@ jobs:
       - name: Open PR
         run: | 
           curl   -X POST \
-          -f \
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/xurenlu/xurenlu.github.io/pulls \
