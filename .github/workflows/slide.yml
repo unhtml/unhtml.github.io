@@ -2,7 +2,7 @@ name: render-slides-with-marp
 
 on:
   push:
-    branches: [ master ]
+    branches: [ main ]
     paths: 
       - "_slides/**"
 
