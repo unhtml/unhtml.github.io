@@ -56,7 +56,7 @@ libexec/jars/3rdparty/
 
 # Query MySQL database
 
-![w:1000 h:600](https://cdn.jsdelivr.net/gh/xurenlu/bed/resource/c1/c12886e4c2234d36f065cf3cb3872210.png)
+![w:1000 h:600](https://cdn.jsdelivr.net/gh/xurenlu/bed/resource/89/8940a38d6ec2d02808c2fcc0f2d0a36d.png)
 
 
 ---
