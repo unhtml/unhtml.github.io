@@ -118,7 +118,7 @@
         <span class="hljs-type">String</span> <span class="hljs-variable">driver</span> <span class="hljs-operator">=</span> <span class="hljs-string">&quot;org.apache.drill.jdbc.Driver&quot;</span>;
         <span class="hljs-type">DriverManagerDataSource</span> <span class="hljs-variable">dataSource</span> <span class="hljs-operator">=</span> <span class="hljs-keyword">new</span> <span class="hljs-title class_">DriverManagerDataSource</span>();
         dataSource.setDriverClassName(driver);
-        dataSource.setUrl(url);
+        dataSource.setUrl(<span class="hljs-string">&quot;jdbc:drill:drillbit=localhost:31010;schema=elastic&quot;</span>);
         <span class="hljs-keyword">return</span> dataSource;
     }
 
