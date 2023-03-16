@@ -31,4 +31,4 @@ jobs:
           -H "Accept: application/vnd.github+json" \
           -H "Authorization: token ${{ secrets.GITHUB_TOKEN }}" \
           https://api.github.com/repos/unhtml/unhtml.github.io/pulls \
-          -d '{"title":"Add rendered slides","body":"Adding rendered slides","head":"slides-${{github.run_id}}","base":"main"}
+          -d '{"title":"Add rendered slides","body":"Adding rendered slides","head":"slides-${{github.run_id}}","base":"main"}'
