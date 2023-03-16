@@ -151,7 +151,7 @@ select convert_fromJSON(`cached.json`.content) as content  from mydata.data.`cac
         String driver = "org.apache.drill.jdbc.Driver";
         DriverManagerDataSource dataSource = new DriverManagerDataSource();
         dataSource.setDriverClassName(driver);
-        dataSource.setUrl(url);
+        dataSource.setUrl("jdbc:drill:drillbit=localhost:31010;schema=elastic");
         return dataSource;
     }
 
